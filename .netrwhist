@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/Users/domlewis/.vim'
 let g:netrw_dirhist_2='/Users/domlewis/.vim/.git'
 let g:netrw_dirhist_3='/Users/domlewis/.vim'
+let g:netrw_dirhist_4='/Users/domlewis/.vim/d4dc9a610884c60d944a4dd97f0b3560-46d2a8015fbd4f8d383773f35e5dbf4158977608'
+let g:netrw_dirhist_5='/Users/domlewis/.vim/submodules.md'
