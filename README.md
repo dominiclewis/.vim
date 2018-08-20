@@ -1,6 +1,6 @@
-#Set Up
+# Set Up
 
-##Installation
+## Installation
 
 ### Installation Mac / Linux
 
