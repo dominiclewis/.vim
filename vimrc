@@ -16,6 +16,8 @@ Plugin 'joshdick/onedark.vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'tpope/vim-surround' 
 Plugin 'scrooloose/nerdtree'
+Plugin 'airblade/vim-gitgutter'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
