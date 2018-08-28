@@ -1,5 +1,3 @@
-set number " turn line numbers on
-
 " Vundle Begin
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -13,8 +11,10 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 " Keep Plugin commands between vundle#begin/end
-
 " All of your Plugins must be added before the following line
+Plugin 'itchyny/lightline.vim'
+Plugin 'tpope/vim-surround' 
+Plugin 'scrooloose/nerdtree'
 call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
@@ -28,4 +28,10 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
-" Vundle end 
+" Vundle end
+
+set number "Enable line numbers
+set relativenumber "Enable line numbers for all lines except current
+set backspace=indent,eol,start " backspace over everything in insert mode
+set laststatus=2 "Possible lightline fix
+syntax on
