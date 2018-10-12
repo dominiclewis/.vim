@@ -14,9 +14,9 @@ Plugin 'VundleVim/Vundle.vim'
 " All of your Plugins must be added before the following line
 Plugin 'joshdick/onedark.vim'  
 Plugin 'itchyny/lightline.vim'
-Plugin 'tpope/vim-surround' 
 Plugin 'scrooloose/nerdtree'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
