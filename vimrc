@@ -18,8 +18,9 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'scrooloose/nerdtree'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'junegunn/fzf.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'junegunn/fzf.vim'
+Plugin 'junegunn/fzf'
 call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
