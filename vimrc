@@ -16,12 +16,17 @@ Plugin 'joshdick/onedark.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'scrooloose/nerdtree'
+" Map Nerdtree toggle to F7
+nmap <F7> :NERDTreeToggle<CR>
 Plugin 'airblade/vim-gitgutter'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'junegunn/fzf.vim'
 Plugin 'junegunn/fzf'
 Plugin 'w0rp/ale'
+Plugin 'majutsushi/tagbar'
+" Map Tagbar toggle to F8
+nmap <F8> :TagbarToggle<CR>
 call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
