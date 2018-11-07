@@ -23,6 +23,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'junegunn/fzf.vim'
 Plugin 'junegunn/fzf'
+nmap <F4> :FZF ~/<CR>
 Plugin 'w0rp/ale'
 Plugin 'majutsushi/tagbar'
 " Map Tagbar toggle to F8
