@@ -47,7 +47,6 @@ filetype plugin indent on    " required
 
 set number "Enable line numbers
 set backspace=indent,eol,start " backspace over everything in insert mode
-set laststatus=2 "Possible lightline fix
 syntax on
 colorscheme onedark 
 "ondark 24 bit stuff below, remove if terminal doesn't support onedark 
