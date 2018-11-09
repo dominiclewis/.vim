@@ -29,6 +29,7 @@ Plugin 'majutsushi/tagbar'
 " Map Tagbar toggle to F8
 nmap <F5> :TagbarToggle<CR>
 Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'tpope/vim-fugitive'
 call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
