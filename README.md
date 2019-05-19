@@ -1,6 +1,5 @@
 This document was taken from https://gist.github.com/manasthakur/d4dc9a610884c60d944a4dd97f0b3560
-Please refer to the original if possible I have taken my own copy as I intend to write a version of this document myself however untill I need to execute 
-this document myself when I will then write my own version
+Please refer to the original if possible I have taken my own copy as I intend to write a version of this document myself however untill then I will fallback on this one
 # Using git-submodules to version-control Vim plugins
 If you work across many computers (and even otherwise!), it's a good idea to keep a copy of your setup on the cloud, preferably in a git repository, and clone it on another machine when you need.
 Thus, you should keep the `.vim` directory along with your `.vimrc` version-controlled.
